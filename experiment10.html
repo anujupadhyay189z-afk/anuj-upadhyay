@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ShopEase</title>
+<link rel="stylesheet" href="style.css"> 
+<style>
+    *{
+        margin:0; padding:0;
+        box-sizing:border-box;
+        font-family:Arial, sans-serif;
+    }
+    header{
+        background:#1a1a1a;
+        color:white;
+        padding:15px 40px;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+    .logo{
+        font-size:22px;
+        font-weight:bold;
+    }
+    nav ul{
+        list-style:none;
+        display:flex;
+        gap:35px;
+    }
+    nav ul li a{
+        text-decoration:none;
+        color:white;
+        font-size:14px;
+    }
+    nav ul li a:hover{
+        color:#ff3e6c;
+    }
+    .right-menu{
+        display:flex;
+        gap:18px;
+        align-items:center;
+    }
+    .right-menu a{
+        color:white;
+        font-size:14px;
+        font-weight:bold;
+    }
+    .content h2{
+        font-size:22px;
+        margin-bottom:5px;
+    }
+    .content p{
+        font-size:14px;
+    }
+    @media(max-width:900px){
+        nav ul{
+            display:none;
+        }
+    }
+</style>
+</head>
+
+<body>
+<header>
+    <div class="logo">ShopEase</div>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Deals</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="right-menu">
+        <a href="#">Cart 🛒</a>
+        <a href="#">Login</a>
+    </div>
+</header>
+<div>
+    <h2>Welcome to ShopEase!</h2>
+    <p>Your one-stop destination for all shopping needs.</p>
+</div>
+</body>
+</html>

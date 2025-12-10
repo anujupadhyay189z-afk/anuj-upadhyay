@@ -1,0 +1,44 @@
+body {
+    background-color: #2c3e50; /* Dark background color from image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+    font-family: sans-serif;
+}
+.box-model {
+    text-align: center;
+    width: 500px; /* Overall width */
+}
+
+.margin, .border, .padding, .content {
+    padding: 45px; /* Space inside each box for text */
+    box-sizing: border-box; /* Ensures padding/border are included in width/height */
+    width: 100%;
+}
+
+.margin {
+    background-color: #bae317; /* Orange color */
+}
+
+.border {
+    background-color: #ba15a1; /* Blue color */
+}
+
+.padding {
+    background-color: #3451c4; /* Yellow color */
+}
+
+.content {
+    background-color:red; /* Teal color */
+    padding: 50px 20px; /* Larger padding for content area */
+}
+.css{
+    text-align: center;
+    color: aliceblue;
+}
+h1{
+    text-align: center;
+}
