@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive gallery</title>
+     <style>
+           body { 
+                  margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: skyblue;}
+            
+        
+        h1 {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            padding: 20px;
+        }
+      
+         .gallery img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        /* Tablet View */
+        @media (max-width: 992px) {
+            .gallery {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        /* Mobile View */
+        @media (max-width: 600px) {
+            .gallery {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        /* Small Mobile */
+        @media (max-width: 400px) {
+            .gallery {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>My Image Gallery</h1>
+
+    <div class="gallery">
+        <img src=":https.image">
+        <img src=":https.image">
+        <img src=":https.image">
+        <img src=":https.image">
+        <img src=":https.image">
+        <img src=":https.image">
+        <img src=":https.image">
+        <img src=":https.image">
+    </div>
+
+</body>
+</html>
+
+
+
